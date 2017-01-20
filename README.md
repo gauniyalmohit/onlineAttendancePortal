@@ -17,6 +17,7 @@ LOGIN, SUBJECT, HOLIDAY, STUDENT
 ---------Facilities according to users roles----------
 
 PRINCIPAL ---
+
 1).Will be provided with the default LOGIN credentials and will have facility to change his password.
 2).Can see the list of teachers and the subjects they teach along with the subject semester, total work days, classes and holidays.
 3).Can mark a single day holiday or limit of days of holidays for whole institute.
