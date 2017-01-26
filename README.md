@@ -2,20 +2,30 @@
 
 $ git clone https://github.com/mohitgauniyal19a/onlineAttendancePortal.git
 
+
 This project is to digitalize the practice of maintaining the attendance of students in an institute.
 We have created and defined different layers with respect to role of members(Lecturer, Head Of Department, Principal, Student)
 we have given authorities, and have grant permissions to all of them depending upon their role.
 Keeping in mind the need of partial page update we have used the AJAX technology and keeping in consideration the majority number of mobile phone users we have tried to maintain responsive and fluid design UI and UX in the web pages of this Web application.
 
-#---------ASSUMPTIONS----------
+#-----LOGIN CREDENTIALS--------
 
-1).A pre built database with following tables – 
+               
+TEACHERS LOGIN(3 roles)--
+#ID                   #PASS
+1. anudeep           123456
+2. abhitesh          123456
+3. gpdehradun        123456
+STUDENT LOGIN--
+#ID             #PASS
+Roll no -     14006050015
+DOB     -     10/jan/2017
 
-LOGIN, SUBJECT, HOLIDAY, STUDENT
+SET this web app in just 5 min.
 
-2).All the subject names are already filled in the database along with their necessary data.
-
-3).All the users will be provided with default Login credentials but can change their passwords, except STUDENT, who won’t have the facility to change his password.
+#---------PREREQUISITES----------
+1). Create a DATABASE with name 'at'
+2). Export at.sql to your database.
 
 #---------Facilities according to users roles----------
 
