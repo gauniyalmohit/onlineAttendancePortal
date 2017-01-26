@@ -8,23 +8,23 @@ We have created and defined different layers with respect to role of members(Lec
 we have given authorities, and have grant permissions to all of them depending upon their role.
 Keeping in mind the need of partial page update we have used the AJAX technology and keeping in consideration the majority number of mobile phone users we have tried to maintain responsive and fluid design UI and UX in the web pages of this Web application.
                
-#----- TEACHERS LOGIN CREDENTIALS(Try all these 3 id/pass)--
+#-- TEACHERS LOGIN CREDENTIALS(Try all these 3 id/pass)--
 
 1. anudeep - 123456
 2. abhitesh - 123456
 3. gpdehradun - 123456
 
-#----- STUDENT LOGIN CREDENTIALS---
+#--STUDENT LOGIN CREDENTIALS---
 
 1. 14006050015 - 10/jan/2017
 
-SET this web app in just 5 min.
+#----PREREQUISITES-----
 
-#---------PREREQUISITES----------
 1). Create a DATABASE with name 'at'
+
 2). Export at.sql to your database.
 
-#---------Facilities according to users roles----------
+#----Facilities according to users roles-----
 
 #PRINCIPAL ---
 
