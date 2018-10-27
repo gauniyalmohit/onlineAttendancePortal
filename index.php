@@ -3,7 +3,7 @@ $error_staff = '';
 if (isset($_GET['error'])) {
     $error_staff = "You need to login first";
 }
-
+//See if someone is directly getting into student account
 $error_student = '';
 if (isset($_GET['error_student'])) {
     $error_student = "You need to login first";
