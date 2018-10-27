@@ -8,7 +8,7 @@ $error_student = '';
 if (isset($_GET['error_student'])) {
     $error_student = "You need to login first";
 }
-
+//teacher login code
 if (isset($_POST['teacher_login'])) {
     $teacher_username = $_POST['teacher_username'];
     $teacher_password = sha1($_POST['teacher_password']);
