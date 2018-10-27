@@ -43,7 +43,7 @@ if (isset($_POST['teacher_login'])) {
         $error_staff = "Wrong username or password entered";
     }
 }
-
+//student login code
 if (isset($_POST['student_login'])) {
     $student_username = $_POST['student_username'];
     $student_password = $_POST['student_password'];
