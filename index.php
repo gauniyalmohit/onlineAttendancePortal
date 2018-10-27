@@ -1,4 +1,5 @@
 <?php
+//See if someone is directly getting into teacher accounts
 $error_staff = '';
 if (isset($_GET['error'])) {
     $error_staff = "You need to login first";
