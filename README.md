@@ -8,16 +8,6 @@ This project is to digitalize the practice of maintaining the attendance of stud
 We have created and defined different layers with respect to role of members(Lecturer, Head Of Department, Principal, Student)
 we have given authorities, and have grant permissions to all of them depending upon their role.
 Keeping in mind the need of partial page update we have used the AJAX technology and keeping in consideration the majority number of mobile phone users we have tried to maintain responsive and fluid design UI and UX in the web pages of this Web application.
-               
-## TEACHERS LOGIN CREDENTIALS(Try all these 3 id/pass)
-
-* anudeep - 123456
-* abhitesh - 123456
-* gpdehradun - 123456
-
-## STUDENT LOGIN CREDENTIALS
-
-* 14006050015 - 10/jan/2017
 
 ## PREREQUISITES
 
