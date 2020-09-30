@@ -18,15 +18,15 @@ if (isset($_POST['teacher_login'])) {
     if (mysqli_num_rows($result) == 1) {
         $row = mysqli_fetch_assoc($result);
         session_start();
-        $_SESSION['teacher_username'] = $teacher_username;
+        $_SESSION['t_username'] = $teacher_username;
         $_SESSION['role'] = $row['role'];
-        $_SESSION['teacher_branch']=$row['teacher_branch'];
+        $_SESSION['t_branch']=$row['teacher_branch'];
         $query = "select * from subject where username='$teacher_username'";
         $result = mysqli_query($link, $query);
         $row = mysqli_fetch_assoc($result);
-        $_SESSION['subject_id'] = $row['subject_id'];
-        $_SESSION['subject_name'] = $row['subject_name'];
-        $_SESSION['teacher_name'] = $row['teacher_name'];
+        $_SESSION['sub_id'] = $row['subject_id'];
+        $_SESSION['sub_name'] = $row['subject_name'];
+        $_SESSION['t_name'] = $row['teacher_name'];
         $_SESSION['photo'] = $row['photo'];
         $_SESSION['branch'] = $row['branch'];
         $_SESSION['semester'] = $row['semester'];
